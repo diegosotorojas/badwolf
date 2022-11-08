@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bad Wolf Beats | Inicio </title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/44f9788861.js" crossorigin="anonymous"></script>
- 
 
 </head>
 
@@ -19,6 +18,7 @@
 
 <body>
     
+<!--------------------------------------------------------NAV--------------------------------------------------------------------->
 
     <nav>
         <input type="checkbox" id="check">
@@ -55,41 +55,41 @@
                 
             <li><a href="">¿QUIENES SOMOS?</a></li>
             <li><a href="">CONTACTO</a></li>
-            <li><a href="">DISTRIBIYE CON NOSOTROS</a></li>
-            <li><a href="">INICIO DE SESION</a></li>
+            <li><a href="">DISTRIBIYE CON NOSOTROS</a></li> 
+            <li><a href="login.php">INICIAR SESIÓN</a></li>
 
         </ul>
 
     </nav>
+<!--------------------------------------------------------NAV--------------------------------------------------------------------->
 
 
 
 
 
+<!------------------------------------------------------CONTENT--------------------------------------------------------------------->
 
 <div class="contenido">
     <h1>!"#ODASDÑ</h1>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, laboriosam praesentium maiores tenetur quos eveniet, reiciendis tempore recusandae sit quisquam sint voluptas repellat cupiditate, dicta nam ad rem in dolores.</p>
 </div>
 
-<div class="contenido">
+    <div class="contenido">
 <h1>LSAO!)"!#!</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vitae facere, repudiandae maxime tempora fugiat ipsum officiis autem vero tenetur natus ratione eum? Ut porro animi eligendi ad asperiores quisquam.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vitae facere, repudiandae maxime tempora fugiat ipsum officiis autem vero tenetur natus ratione eum? Ut porro animi eligendi ad asperiores quisquam.</p>
+
 </div>
 
 
-
-
+<!------------------------------------------------------CONTENT--------------------------------------------------------------------->
 
 
 
 </body>
 
 
-<!-----------------------------------------------------------------------FOTER------------------------------------------------------------------------------->
+<!-------------------------------------------------------FOOTER--------------------------------------------------------------------->
 <footer>
-
 <div class="grupo-footer">
   <div class="grupo-footer-1">
     <p>© & ® 2020 Bad Wolf Records SpA. 77.202.744-3
@@ -119,12 +119,13 @@
     <a target="_blank" href="https://badwolf.bandcamp.com/">
     <img class="foterb" src="https://static.wixstatic.com/media/905f0e3ba15f43588d5ce6a2350bf284.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/905f0e3ba15f43588d5ce6a2350bf284.png" alt=""></a>
     
-    
   </div>
 </div>
 
-
 </footer>
-<!-----------------------------------------------------------------------FOTER------------------------------------------------------------------------------->
+<!-------------------------------------------------------FOOTER--------------------------------------------------------------------->
+
+
+<script src="script/script.js"></script>
 
 </html>
